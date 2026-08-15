@@ -1,0 +1,4 @@
+pymupdf>=1.24
+pillow>=10.0
+# Opcional, somente para PDFs digitalizados:
+pytesseract>=0.3.13
