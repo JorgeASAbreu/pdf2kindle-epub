@@ -19,16 +19,19 @@ Conversor em Python de PDF para EPUB reflowable, otimizado para leitura em Kindl
 - Pillow
 - pytesseract, caso utilize OCR
 
-Instale as dependências com:
+## Instale as dependências com:
 
-```bash
+bash
 pip install -r requirements_pdf_para_epub.txt
 
 # Uso
 
 python pdf_para_epub_profissional.py entrada.pdf -o saida.epub
-Informando título e autor
+
+## Informando título e autor
+
 python pdf_para_epub_profissional.py entrada.pdf \
+
   -o saida.epub \
   --title "Meu Livro" \
   --author "Nome do Autor"
@@ -41,7 +44,9 @@ python pdf_para_epub_profissional.py entrada.pdf \
 
 # Para OCR, também é necessário instalar o Tesseract OCR no sistema operacional.
 
-Exemplo de fluxo
+## Exemplo de fluxo
+
+```text
 PDF
  ↓
 Extração e limpeza
@@ -57,3 +62,4 @@ Criação dos capítulos
 Sumário navegável
  ↓
 EPUB reflowable
+
