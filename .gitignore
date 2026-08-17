@@ -1,7 +1,30 @@
-venv/
+# Ambientes virtuais
 .venv/
+venv/
+env/
+ENV/
+
+# Cache e ferramentas Python
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Builds e metadados de pacotes
+build/
+dist/
+*.egg-info/
+
+# Arquivos gerados pelo projeto
 *.epub
 *.pdf
+
+# Editores e sistema operacional
+.idea/
+.vscode/
+*.swp
 .DS_Store

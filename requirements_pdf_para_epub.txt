@@ -1,4 +1,11 @@
-pymupdf>=1.24
-pillow>=10.0
-# Opcional, somente para PDFs digitalizados:
+# Conversão de PDF
+PyMuPDF>=1.24
+Pillow>=10.0
+
+# Conversão de páginas web
+beautifulsoup4>=4.12
+lxml>=5.0
+requests>=2.31
+
+# OCR opcional para PDFs digitalizados (também requer o Tesseract instalado)
 pytesseract>=0.3.13
